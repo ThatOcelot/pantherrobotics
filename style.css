@@ -13,7 +13,7 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #000000;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -31,11 +31,11 @@ body{
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to lime green on hover */
 .topnav li a:hover {
-  background-color: #111;
+  background-color: #32CD32;
 }
 
 .active {
-  background-color: #FF4500;
+  background-color: #FF0000;
 }
