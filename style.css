@@ -31,7 +31,7 @@ body{
   text-decoration: none;
 }
 
-/* Change the link color to neon green on hover */
+/* Change hover color based on season color (e.g. neon green for FIRST Energize) */
 .topnav li a:hover {
   background-color: #39FF14;
 }
