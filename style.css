@@ -31,9 +31,9 @@ body{
   text-decoration: none;
 }
 
-/* Change the link color to lime green on hover */
+/* Change the link color to neon green on hover */
 .topnav li a:hover {
-  background-color: #32CD32;
+  background-color: #39FF14;
 }
 
 .active {
