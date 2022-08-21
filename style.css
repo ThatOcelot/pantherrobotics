@@ -110,12 +110,10 @@ img {
 
 .container {
   position: relative;
-  display:block;
-  margin: auto;
+  overflow: hidden;
   width: 100%;
-  max-width:1920px;
-  padding-bottom: 56.25%;
-  top: 50%;
+  max-width: 640px;
+  padding-top: 56.25%;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
