@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Silkscreen&display=swap');
 
 body{
-	font-family: 'Silkscreen', display;
-	text-align: left;
-	background-color: #000000;
+  font-family: 'Silkscreen', display;
+  text-align: left;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 .topnav ul {
