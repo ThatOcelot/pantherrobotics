@@ -111,8 +111,8 @@ img {
 .container {
   position: relative;
   overflow: hidden;
-  max-width: 560px;
-  max-height: 315px;
+  max-width: 315px;
+  max-height: 560px;
   width: 100%;
   padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
