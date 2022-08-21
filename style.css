@@ -12,7 +12,6 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-/* Change topnav background color based on season color (e.g. neon green for FIRST Energize) */
   background-color: #000000;
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -31,6 +30,7 @@ body{
   text-decoration: none;
 }
 
+/* Change topnav and link hover color based on season color (e.g. neon green for FIRST Energize) */
 .topnav li a:hover {
   background-color: #39FF14;
 }
@@ -51,4 +51,12 @@ th, td {
 
 tr:nth-child(even) {
   background-color: #808080;
+}
+
+a:link {
+  color: #39FF14;
+}
+  
+a:visited {
+  color: #FF0000;
 }
