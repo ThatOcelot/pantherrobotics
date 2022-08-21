@@ -6,39 +6,40 @@ body{
   background-color: #000000;
   color: #FFFFFF;
 }
-
+ /* Add a black background color to the top navigation */
 .topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
   background-color: #000000;
-  color: #FFFFFF;
   overflow: hidden;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
 }
 
+/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-/* Change topnav and link hover color based on season color (e.g. neon green for FIRST Energize) */
+/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #39FF14;
+  color: #ffffff;
 }
 
+/* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #FF0000;
+  background-color: #ff0000;
+  color: #ffffff;
 }
 
+/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -109,9 +110,13 @@ img {
 
 .container {
   position: relative;
-  overflow: hidden;
+  display:block;
+  margin:0 auto;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  max-width:1920px;
+  padding-bottom: 56.25%;
+  top: 50%;
+  transform:translateY(-50%)
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
