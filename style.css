@@ -3,6 +3,7 @@
 body{
 	font-family: 'Silkscreen', display;
 	text-align: left;
+	background-color: #000000;
 }
 
 .topnav ul {
@@ -10,7 +11,8 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000000;
+/* Change topnav background color based on season color (e.g. neon green for FIRST Energize) */
+  background-color: #39FF14;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -28,9 +30,8 @@ body{
   text-decoration: none;
 }
 
-/* Change hover color based on season color (e.g. neon green for FIRST Energize) */
 .topnav li a:hover {
-  background-color: #39FF14;
+  background-color: #FFA500;
 }
 
 .active {
