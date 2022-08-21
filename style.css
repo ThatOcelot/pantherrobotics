@@ -112,7 +112,6 @@ img {
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 640px;
   padding-top: 56.25%;
 }
 
