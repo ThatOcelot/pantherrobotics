@@ -2,7 +2,7 @@
 
 body{
   font-family: 'Silkscreen', display;
-  text-align: left;
+  text-align: center;
   background-color: #000000;
   color: #FFFFFF;
 }
@@ -37,4 +37,9 @@ body{
 
 .active {
   background-color: #FF0000;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
