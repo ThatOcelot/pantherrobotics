@@ -60,3 +60,19 @@ a:link {
 a:visited {
   color: #FF0000;
 }
+
+.bronze {
+  color: #CD7F32;
+}
+
+.silver {
+  color: #C0C0C0;
+}
+
+.gold {
+  color: #FFD700;
+}
+
+.platinum {
+  color: #E5E4E2;
+}
