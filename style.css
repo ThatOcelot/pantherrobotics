@@ -12,6 +12,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: #000000;
+  color: #FFFFFF;
   overflow: hidden;
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -21,7 +22,6 @@ body{
 .topnav a {
   float: left;
   display: block;
-  color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
