@@ -111,10 +111,8 @@ img {
 .container {
   position: relative;
   overflow: hidden;
-  max-width: 315px;
-  max-height: 560px;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
