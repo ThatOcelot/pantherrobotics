@@ -6,7 +6,16 @@ body{
   background-color: #000000;
   color: #FFFFFF;
 }
- /* Add a black background color to the top navigation */
+ 
+a:link {
+  color: #39FF14;
+}
+  
+a:visited {
+  color: #FF0000;
+}
+
+/* Add a black background color to the top navigation */
 .topnav {
   background-color: #000000;
   overflow: hidden;
@@ -77,14 +86,6 @@ th, td {
 
 tr:nth-child(even) {
   background-color: #808080;
-}
-
-a:link {
-  color: #39FF14;
-}
-  
-a:visited {
-  color: #FF0000;
 }
 
 .bronze {
