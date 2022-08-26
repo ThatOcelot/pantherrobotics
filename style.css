@@ -7,6 +7,22 @@ body{
   color: #FFFFFF;
 }
  
+h1 {
+  font-size: 40pt;
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+h3 {
+  font-size: 26pt;
+}
+
+p {
+  font-size: 20pt;
+}
+
 a:link {
   color: #39FF14;
 }
