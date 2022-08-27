@@ -23,6 +23,10 @@ p {
   font-size: 1.25em;
 }
 
+li {
+  font-size: 1.25em;
+}
+
 a:link {
   color: #39FF14;
 }
